@@ -1,0 +1,35 @@
+/* #parent{
+    background-color: blueviolet;
+    height:100vh;
+    width: 100vw;
+}
+
+#child{
+    background-color: crimson;
+    height: 50%;
+    width: 50%;
+} */
+  /* li{
+    color: cadetblue;
+    font-size: 2em; */
+    /* font-size: 2rem; */
+ /* }  */
+
+ div{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    display: block;
+     /* display: none; */
+    /* visibility: hidden;  */
+ }
+
+ span{
+   background-color: mediumvioletred;
+    height: 200px;
+    width: 200px;
+    /* display: block; */
+    display: inline-block;
+    /* display: none;
+    display: hidden; */
+ }

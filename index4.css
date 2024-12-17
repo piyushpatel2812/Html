@@ -1,0 +1,43 @@
+/* h2{
+    background-color: brown;
+}
+#one{
+    color: coral;
+}
+p{
+    color: darkcyan;
+} */
+
+/* a[href='http://google.com']{
+    background-color:crimson;
+} */
+/* a[href$='in']{
+    background-color:crimson;
+} */
+
+/* a[href^='http']{
+    background-color:crimson;
+}
+a[href*='h']{
+    background-color:darkorchid;
+} */
+
+li:nth-of-type(2){
+    background-color: aqua;
+}
+
+div p{
+    color: royalblue;
+}
+div{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+   
+    
+}
+div:hover{
+  background-color: burlywood;
+ border-radius: 50%;
+    transition: 3s;
+}

@@ -1,0 +1,12 @@
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 20px; background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    display: block;
+    display: none;
+    display: hidden;
+    margin: 30px;
+}
