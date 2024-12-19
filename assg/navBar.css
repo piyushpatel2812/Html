@@ -1,0 +1,30 @@
+#main{
+    border: 2px solid black;
+    height: 50px;
+    width: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+#one{
+   color: orange;
+   display: flex;
+
+
+}
+#two{
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+ #three button{
+    background-color: orange;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 30px;
+   left: 550px;
+ }

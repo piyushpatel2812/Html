@@ -1,0 +1,29 @@
+#main{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+   /* justify-content: center; */
+   /* justify-content: baseline; */
+   /* justify-content: space-between; */
+   /* justify-content: space-evenly; */
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+}
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
