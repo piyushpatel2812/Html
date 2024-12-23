@@ -1,0 +1,36 @@
+#main{
+    height: 710px;
+    border: 3px solid;
+    
+}
+#main div img{
+    height:175px;
+    width: 175px;
+    transition: 3s;
+}
+
+#main:hover div img{
+    margin-left: 1230px;
+    border-radius: 50%;
+
+}
+#main div:nth-of-type(1) img {
+    /* background-color: burlywood; */
+    transition-timing-function:linear;
+
+}
+#main div:nth-of-type(2) img{
+    /* background-color: coral; */
+    transition-timing-function: ease-in;
+
+}
+#main div:nth-of-type(3) img{
+    /* background-color: mediumspringgreen; */
+    transition-timing-function: ease-out
+
+}
+#main div:nth-of-type(4) img{
+    /* background-color: plum   ; */
+    transition-timing-function: ease-in-out ;
+
+}

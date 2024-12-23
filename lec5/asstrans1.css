@@ -1,0 +1,31 @@
+.main{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    transition: 3s;
+    margin: 50px auto;
+    transform-style: preserve-3d;
+}
+
+.main:hover{
+transform: rotateY(180deg);
+}
+img{
+    width: 100%;
+}
+
+body{
+    perspective: 900px;
+}
+.ch1{
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.ch2{
+    transform: rotateY(180deg);
+}
+.ch1 ,.ch2{
+position: absolute;
+width: 100%;
+height: 100%;
+}

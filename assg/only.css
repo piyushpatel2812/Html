@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    }
+    
+    #main{
+        border: 2px solid black;
+        height: 60px;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+       
+    }
+    *{
+       margin: 0;
+       padding: 0;
+    }
+    #one{
+       color: orange;
+       display: flex;
+    
+    
+    }
+    #two{
+        background-color: black;
+        color: aliceblue;
+        position: absolute;
+        left: 85vw;
+    }
+     #three button{
+        background-color:black;
+        color: white;
+        /* font-size: large; */
+        position: absolute;
+        margin-top: -10px;
+       left: 90vw;
+     }
+#parent{
+        height: 350px;
+        width: 350px;
+        background-color: ghostwhite;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       display: flex;
+       justify-content: space-between;
+       border-radius: 5%;
+       display: inline-block;
+       margin: 23px;
+    }
+     /* #parent:hover{
+        border-radius: 20%;
+        transform: scale(1.1);
+        transition: 1s; 
+    }  */
+    #child{
+       display: flex;
+       flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    
+    }
+    #child-div{
+        height: 150px;
+        width: 150px;
+        background-color: brown;
+        border-radius: 5%;
+        margin-top: 2%;
+    }
+    #child-div:hover{
+        transform: scale(1.5);
+        transition: 1s;
+    }
+    
+    
