@@ -1,0 +1,29 @@
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: ice;
+    animation-duration: 3s;
+  animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: ease-in-out;
+   animation-duration: 800ms;
+}
+
+   @keyframes ice{
+    0%{
+        transform: translateY(0)
+    }
+  
+    100%{
+        transform: translateY(75vw)  rotate(360deg);
+    }
+   }
+
+
+div{ 
+    display: flex;
+    justify-content: center;
+}
+

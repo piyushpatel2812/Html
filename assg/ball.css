@@ -1,0 +1,78 @@
+#one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: ice;
+   
+  animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: ease-in-out;
+   animation-duration: 1500ms;
+}
+
+   @keyframes ice{
+    0%{
+        transform: translate(0,0)
+           
+    }
+   
+    100%{
+        transform: translate(80vw,80vh)  ;
+    }
+   }
+
+   #two{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: iceone;
+    
+  animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: ease-in-out;
+   animation-duration: 1500ms;
+}
+
+   @keyframes iceone{
+    0%{
+        transform: translate(100vw,0)
+           
+    }
+   
+    100%{
+        transform: translate(10vw,90vh)  ;
+    }
+   }
+   #three{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: icethree;
+    
+  animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    animation-timing-function: ease-in-out;
+   animation-duration: 2000ms;
+}
+
+   @keyframes icethree{
+    0%{
+        transform: translate(50vw,10vh)
+           
+    }
+   
+    100%{
+        transform: translate(-20vw,70vh)  rotate(360deg) ;
+    }
+   }
+
+
+div{ 
+    
+    display: flex;
+    justify-content: center;
+}
+
