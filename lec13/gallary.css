@@ -1,0 +1,29 @@
+#main{
+    border: 2px solid black;
+    height: 50%;
+    width: 51%;
+    margin: 12px auto;
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px ; */
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 4px;
+}
+.one{
+    border: 1px solid ;
+    height: 200px;
+    width: 200px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+.one :hover{
+    transform: scale(0.9);  
+    border-radius: 10%;
+    transition: 4ms;
+    
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
