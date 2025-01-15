@@ -33,17 +33,19 @@
 //     console.log('hello');
 
 // }
-let data=sum()
-console.log(data);
-function
 
-let arr=[1,2,'hello',false,null,undefined]
-for(let i in arr){
-    console.log(i);
-}
-for(let i of arr){
-    console.log(i);
-}
 
-console.log(arr);
-console.log(arr[4]);
+// let data=sum()
+// console.log(data);
+// function
+
+// let arr=[1,2,'hello',false,null,undefined]
+// for(let i in arr){
+//     console.log(i);
+// }
+// for(let i of arr){
+//     console.log(i);
+// }
+
+// console.log(arr);
+// console.log(arr[4]);
